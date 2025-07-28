@@ -1,0 +1,384 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.header{
+    width: 100%;
+    height: 700px;
+}
+
+.img1{
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    background-position: center;
+    
+    position :absolute;
+    filter: brightness(30%);
+   
+    background-color: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+}
+.logo{
+   
+    width: 150px;
+    margin-top: 25px;
+    margin-left:175px;
+    height: 40px;
+    align-items: center;
+    position: relative;
+ }
+ nav .button {
+   
+    position: relative;
+    margin-right: 200px;
+    margin-left: 1000px;
+   
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .but {
+  background-color: transparent;
+  color: white;
+  border: 2px solid rgb(83, 81, 81);
+ height: 35px;
+  font-size: 16px;
+  border-radius: 4px;
+  width: 130px;
+  cursor: pointer;
+  position: relative;
+  margin-top: -40px;
+  margin-left: 100px;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 1;
+  margin-top: 5px;
+  margin-left: 100px;
+  border-radius: 4px;
+  padding: 0;
+  list-style: none;
+}
+
+.dropdown li a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown li a:hover {
+  background-color: rgb(70, 97, 231);
+}
+
+.but:hover + .dropdown {
+  display: block;
+}
+
+ .on{
+    background-color:red;
+  padding: 3px;
+    color:white;
+    width: 80px;
+    height: 35px;
+    font-size: medium;
+    font-weight: 1500px;
+    font-family:'Segoe UI';
+    margin-top: -40px;
+    text-align: center;
+    border-radius: 7px;
+ }
+ .h{
+   justify-content: center;
+  font-size:350% ;
+font-weight: bolder;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 180px
+ }
+ .h4{
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight:400;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ .red{
+  border: 2px solid rgb(75, 73, 73);
+  background-color:  transparent;
+  backface-visibility: initial;
+  font-size: 20px;
+  color: white;
+display:flex;
+  width: 500px;
+  padding: 5px;
+  margin-top: 40px;
+  margin-left:380px;
+  position: relative;
+  border-radius: 5px;
+  height: 50px;
+}
+.get{
+  margin-top:-70px;
+  display: flex;
+  width: 200px;
+  font-size:x-large;
+  padding: 10px 23px;
+ height: 50px;
+font-weight: bold;
+  margin-left:900px;
+  position: relative;
+  border-radius: 5px;
+  color: #fff;
+  background-color: red;
+}
+.first{
+height: 10px;
+background-color: rgb(45, 43, 43);
+width: 100%;
+filter: brightness(70%);
+}
+.second{
+  width: 100%;
+  height: 300px;
+  background-color: black;
+}
+
+.second h1{
+  margin-top: 100px;
+  font-family:'Segoe UI', Tahoma, Verdana;
+  
+  margin-top: 250px;
+  margin-left: 150px;
+  font-weight: bolder;
+  font-size: 50px;
+}
+.second h2{
+padding:10px 150px;
+}
+.second img{
+  margin-left: 800px;
+  margin-top: -300px;
+width: 500px;
+}
+.third{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+  
+}
+.third h1{
+  margin-top: 100px;
+  font-family:'Segoe UI', Tahoma, Verdana;
+  
+  margin-left: 700px;
+  margin-top: -350px;
+  font-weight: bolder;
+  font-size: 40px;
+}
+.third h2{
+  margin-left: 700px;
+  padding-top:10px ;
+}
+.stranger{
+  margin-top: 50px;
+  margin-left: 200px;
+  height: 400px;
+  width: 350px;
+}
+.fourth{
+  width: 100%;
+  height: 300px;
+  background-color: black;
+}
+.fourth h1{
+  
+  font-family:'Segoe UI', Tahoma, Verdana;
+  margin-left: 750px;
+  margin-top: 200px;
+  
+  font-weight: bolder;
+  font-size: 50px;
+}
+.fourth h2{
+  margin-left: 750px;
+  
+  padding-top: 10px;
+}
+.fourth img{
+  margin-top:-300px ;
+width: 700px;
+height: 500px;
+}
+.fifth{
+  width: 100%;
+  height: 1000px;
+  background-color: black;
+}
+.fifth h1{
+  font-size: 50px;
+  padding-top: 60px;
+  text-align: center;
+  justify-content: center;
+ 
+
+}
+.accordion {
+  margin: 60px auto;
+  width: 100%;
+  max-width: 750px;
+}
+.accordion li{
+  list-style: none;
+  width: 100%;
+  padding: 5px;
+}
+.accordion li label{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: rgb(61, 58, 58);
+  margin-bottom: 2px;
+  cursor: pointer;
+  position: relative;
+}
+label::after{
+  content: '+';
+  font-size: 34px;
+  position: absolute;
+  right: 20px;
+  transition: transform 0.5s;
+}
+input[type="radio"]{
+  display: none;
+}
+.accordion .content{
+  background-color:rgb(61, 58, 58) ;
+  text-align: left;
+  padding: 0 20px;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s,padding 0.5s;
+}
+.accordion input[type="radio"]:checked+label+.content{
+  max-height: 600px;
+  padding: 30px 20px;
+}
+.accordion input[type="radio"]:checked+label::after{
+transform:rotate(135deg);
+}
+.footer{
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  padding: 50px 15% 10px;
+  color: #aaa1a1;
+}
+.footer h2{
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  
+}
+.footer .row{
+  flex-basis:25%;
+  flex-grow:1;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+
+
+}
+.footer .col a{
+  display: block;
+  padding-top: 10px;
+ font-size: 14px;
+ margin-bottom: 10px;
+ color: #aaa1a1;
+}
+.footer .col{
+ margin-top: 10px;
+  padding: 10px ;
+}
+
+
+.but:hover + .btn {
+  display: block;
+}
+
+.para{
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+nav .bton {
+   
+  position: relative;
+  margin-right: 200px;
+  margin-left: -100px;
+ 
+  display: flex;
+  justify-content: space-between;
+}
+
+.but {
+background-color: transparent;
+color: white;
+border: 2px solid rgb(83, 81, 81);
+height: 35px;
+font-size: 16px;
+border-radius: 4px;
+width: 130px;
+cursor: pointer;
+position: relative;
+margin-top: -40px;
+margin-left: 100px;
+}
+
+.btn {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+z-index: 1;
+margin-top: 5px;
+margin-left: 100px;
+border-radius: 4px;
+padding: 0;
+list-style: none;
+}
+
+.btn li a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.btn li a:hover {
+background-color: rgb(70, 97, 231);
+}
+
+.but:hover + .btn {
+display: block;
+}
+.para{
+font-size: 14px;
+margin-top: 20px;
+margin-bottom: 10px;
+}
